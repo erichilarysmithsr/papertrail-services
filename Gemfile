@@ -30,7 +30,7 @@ gem 'hipchat-api'
 gem 'librato-metrics', '~> 1.0.1', :require => "librato/metrics"
 
 # service :aws-sns
-gem 'aws-sdk', '~> 1.43.3'
+gem 'aws-sdk', '~> 1.52.0'
 
 group :development do
   gem 'foreman'
