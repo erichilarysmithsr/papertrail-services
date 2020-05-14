@@ -2,7 +2,7 @@ ruby "1.9.3"
 
 source 'https://rubygems.org'
 
-gem 'sinatra'
+gem 'sinatra', '>= 2.0.0'
 gem 'activesupport', '~> 3.0', :require => 'active_support'
 gem 'yajl-ruby', :require => [ 'yajl', 'yajl/json_gem' ]
 gem 'faraday'
@@ -45,9 +45,9 @@ group :production do
   gem 'pg'
 
   # Use unicorn as the web server
-  gem 'unicorn'
+  gem 'unicorn', '>= 4.6.2'
 
-  gem 'puma'
+  gem 'puma', '>= 2.12.0'
 end
 
 group :test do
