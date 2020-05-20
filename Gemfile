@@ -3,7 +3,7 @@ ruby "1.9.3"
 source 'https://rubygems.org'
 
 gem 'sinatra'
-gem 'activesupport', '~> 3.0', :require => 'active_support'
+gem 'activesupport', '~> 5.2', '>= 5.2.4.3', :require => 'active_support'
 gem 'yajl-ruby', :require => [ 'yajl', 'yajl/json_gem' ]
 gem 'faraday'
 gem 'tzinfo'
@@ -14,7 +14,7 @@ gem 'scrolls'
 gem 'metriks'
 gem 'metriks-librato_metrics', :git => 'https://github.com/eric/metriks-librato_metrics.git'
 
-gem 'hoptoad_notifier'
+gem 'hoptoad_notifier', '>= 2.4.11'
 gem "sentry-raven"
 
 # service: mail
