@@ -34,7 +34,7 @@ gem 'aws-sdk', '~> 1.43.3'
 
 group :development do
   gem 'foreman'
-  gem 'heroku'
+  gem 'heroku', '>= 3.99.4'
 end
 
 group :building do
