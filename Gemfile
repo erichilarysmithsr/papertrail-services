@@ -47,7 +47,7 @@ group :production do
   # Use unicorn as the web server
   gem 'unicorn'
 
-  gem 'puma'
+  gem 'puma', '>= 4.3.8'
 end
 
 group :test do
